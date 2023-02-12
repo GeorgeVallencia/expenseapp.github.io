@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Expense Tracker App</title>
+</head>
+<body>
+   <div class="container">
+    <h1>Expense Tracker</h1>
+    <h2>Add A New Item:</h1>
+
+    <form>
+        <label class="name">Name:</label>
+        <input class="input1" type="text" placeholder="Where was the expense made?" required>
+        <label class="date">Date:</label>
+        <input class="input2" type="date" name="date" placeholder="dd/mm/yyyy" required>
+        <label class="amount">Amount:</label>
+        <input class="input3" type="amount" required>
+    </form>
+
+    <button class="add-expense-btn">Add Expense</button>
+    <div  class="list">
+    <table  class="list-items">
+        <tr>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Amount</th>                       
+            <th></th>                       
+        </tr>
+        <tbody>
+         <tr>
+            <!-- <td>kfc</td>
+            <td>03/02/2023</td>
+            <td>1000</td>
+            <td><i class='bx bxs-x-square'></i></td>      -->
+        </tr>     
+        </tbody>  
+    </table>  
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
